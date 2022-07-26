@@ -1,0 +1,27 @@
+@media (min-width: 414px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+.header_block {
+  display: flex;
+  justify-content: space-between;
+}
+.header_block .logo {
+  width: 77px;
+  height: 20px;
+  left: 15px;
+  top: 32px;
+}
+.header_block p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.menu_block {
+  width: 24px;
+  height: 16px;
+  top: 32px;
+}/*# sourceMappingURL=style.css.map */
