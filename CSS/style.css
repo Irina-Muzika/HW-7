@@ -1,12 +1,17 @@
+@charset "UTF-8";
 body {
   min-width: 414px;
 }
 
-@media (min-width: 414px) and (max-width: 950px) {
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 0px) and (max-width: 950px) {
   .container {
     padding: 20px 15px 0;
-    display: flex;
-    justify-content: space-between;
   }
   .logo_p {
     width: 77px;
@@ -64,14 +69,20 @@ body {
     row-gap: 6px;
     align-items: center;
   }
+  .nav {
+    display: none;
+  }
+  .nav_part2 {
+    display: none;
+  }
 }
 @media (min-width: 950px) {
   .container {
-    display: flex;
-    justify-content: space-between;
+    margin: 50px 165px 0;
   }
   .nav {
     display: flex;
+    align-items: center;
     gap: 40px;
   }
   .nav_p {
@@ -81,6 +92,24 @@ body {
     font-size: 16px;
     line-height: 16px;
     color: #35414B;
+  }
+  .nav_p::after {
+    content: "⌄";
+    vertical-align: text-top;
+    padding-left: 5px;
+  }
+  .nav_pp {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #35414B;
+  }
+  .nav_part2 {
+    display: flex;
+    gap: 16px;
+    align-items: center;
   }
   .button {
     background: #ECE6FF;
