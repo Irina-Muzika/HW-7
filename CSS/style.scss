@@ -4,11 +4,26 @@ html{
 }
 .container{ 
     margin: 0 auto;
-    max-width: 1140px;
     padding-left: 16px;
     padding-right: 16px;
-    
    
+}
+header{
+    .container{
+        max-width: 1140px;
+     margin: 0 auto;
+    }
+}
+.e--dfcen{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.e--dfccen{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
 .header-menu{
@@ -352,8 +367,6 @@ color: #FFFFFF;
 
 }
 
-
-
 }
 }
 .e--mt{
@@ -426,21 +439,28 @@ text-align: center;
 }
 }
 }
-
+.Plan{
+    background: #FBFAFE;
+}
 .e--mtt{
     margin-top: 56px;
+    padding-top: 32px;
 @media screen and (min-width: 950px){
     display: flex;
-
     gap: 80px;
     margin-top: 106px;
+    justify-content: center;
+    align-items: center;
 }
 }
+
 img{
     @media screen and (min-width: 950px){
         width: 657px;
       
     }}
+    
+    
 
 
 .review-border{
@@ -698,21 +718,357 @@ border-radius: 4px;
         display: flex;
         gap: 125px;
    
-      
-    
     }
     .infa-desktop{
         display: block;
         display: flex;
         gap: 115px;
-     
-        
+    
 
     }
 }
+.work-time{
+    background: #FBFAFE;
+}
+.Work-infor{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 32px 0;
+
+@media  screen and (min-width: 950px){
+display: flex;
+flex-direction: row-reverse;
+
+gap: 90px;
+text-align: center;
+}
+    
+}
+
+.hours-worked-img{
+    width: 384px;
+    @media  screen and (min-width: 950px){
+        width: 596px;
+    height: 404px;
+     }
+}
+.about-work{
+display: flex;
+flex-direction: column;
+gap: 16px;
+align-items: center;
+text-align: center;
+margin-top: 32px;
+@media  screen and (min-width: 950px){
+   align-items: flex-start;
+
+}
+}
+
+.about-work-h{
+    width: 322px;
+height: 48px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #35414B;
+@media  screen and (min-width: 950px){
+    width: 341px;
+height: 96px;
+text-align: left;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+color: #35414B;
+
+
+}
+}
+.about-work-p{
+    width: 322px;
+height: 72px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #4E5A65;
+@media  screen and (min-width: 950px){
+    width: 413px;
+    height: 72px;
+    text-align: left;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #4E5A65;
 
 
 
+}
+
+}
 
 
+.button-email{
+    width: 318px;
+height: 52px;
+    background: #794CFF;
+    border: 1px solid #794CFF;
+    border-radius: 4px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+text-align: center;
+color: #FFFFFF;
+&:hover{
+    border: 2px solid blue;
+}
+@media  screen and (min-width: 950px){
+    width: 164px;
+    
+}
+}
+.about-us{
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    @media  screen and (min-width: 950px){
+       margin-bottom: 48px;
+       gap: 48px;
+    }
+   
+}
+.about-us-h{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #35414B;
+width: 322px;
+height: 48px;
+@media  screen and (min-width: 950px){
+    width: 394px;
+height: 96px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+color: #35414B;
 
+}
+}
+.about-us-p{
+    width: 336px;
+height: 160px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #4E5A65;
+    @media  screen and (min-width: 950px){
+        width: 543px;
+height: 96px;
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+text-align: center;
+color: #4E5A65;
+
+    }
+}
+.team{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 140px;
+   
+}
+.people-1{
+    width: 105px;
+height: 91px;
+@media  screen and (min-width: 950px){
+    width: 264px;
+    display: flex;
+    text-align: left;
+    gap: 16px;
+    border-top: 4px solid  #35414B;
+    padding-top: 24px;
+  
+}
+
+}
+.people-2{
+    width: 105px;
+height: 91px;
+display: none;
+@media  screen and (min-width: 950px){
+    display: block;
+    display: flex;
+    text-align: left;
+    width: 227px;
+    height: 48px;
+    gap: 16px;
+    padding-top: 24px;
+
+
+}
+
+}
+.people-3{
+    width: 105px;
+height: 91px;
+display: none;
+
+@media  screen and (min-width: 950px){
+    display: block;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 16px;
+    width: 215px;
+    height: 48px;
+    padding-top: 24px;
+
+}
+}
+
+
+.people-img{
+    @media  screen and (min-width: 950px){
+        width: 48px;
+        height: 48px;
+    }
+    
+}
+.people-h{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 13px;
+color: #4E5A65;
+@media  screen and (min-width: 950px){
+    width: 129px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 16px;
+color: #4E5A65;
+
+}
+
+}
+.people-p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 13px;
+color: #4E5A65;
+@media  screen and (min-width: 950px){
+    width: 163px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+color: #4E5A65;
+
+}
+
+}
+.google{
+background-color: #796EFF;
+@media  screen and (min-width: 950px){
+    background-color: white;
+    margin-top: 100px;
+
+}
+
+}
+.container-google{
+    margin-top: 56px;
+    width: 414px;
+    height: 292px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    @media  screen and (min-width: 950px){
+        width: 1110px;
+        height: 224px;
+        background: #796EFF;
+    border-radius: 16px;
+    margin: 0 auto ;
+    justify-content: center;
+    align-items: center;
+  
+    }
+}
+
+.google-h{
+    width: 322px;
+height: 64px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+
+}
+.google-logo{
+gap: 24px;
+display: flex;
+flex-direction: column;
+align-items: center;
+@media  screen and (min-width: 950px){
+    display: flex;
+    flex-direction: row;
+}
+}
+.google-logo-img{
+    width: 180px;
+    height: 53px;
+    @media  screen and (min-width: 950px){
+        width: 180px;
+    height: 53px;
+  
+   
+    }
+}
+.google-flex{
+
+    @media  screen and (min-width: 950px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+       
+    }
+
+}
