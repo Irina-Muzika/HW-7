@@ -1078,7 +1078,7 @@ header .container {
     display: flex;
     flex-direction: row;
     row-gap: 24px;
-    gap: 200px;
+    gap: 180px;
     padding: 80px 276px 161px 198px;
   }
 }
