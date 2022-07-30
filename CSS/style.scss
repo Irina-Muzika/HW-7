@@ -1087,9 +1087,10 @@ align-items: center;
   @media  screen and (min-width: 950px){
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     row-gap: 24px;
     gap: 170px;
-    padding: 80px 240px 161px 150px;
+    padding: 80px 276px 161px 198px;
   }
 
 
