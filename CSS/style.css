@@ -336,7 +336,6 @@ html {
 @media screen and (min-width: 950px) {
   .picture-one {
     width: 920px;
-    height: 654px;
   }
 }
 
@@ -345,7 +344,6 @@ html {
   flex-direction: column;
   align-items: center;
   margin-top: 56px;
-  width: 940px;
 }
 
 .company-p {
@@ -408,7 +406,6 @@ html {
 @media screen and (min-width: 950px) {
   img {
     width: 657px;
-    height: 518px;
   }
 }
 
@@ -476,5 +473,207 @@ html {
   .review-no-border {
     width: 372px;
     height: 128px;
+  }
+}
+
+.Title-h {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #35414B;
+  margin-top: 56px;
+}
+@media screen and (min-width: 950px) {
+  .Title-h {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #35414B;
+    margin-top: 100px;
+  }
+}
+
+.infa-desktop {
+  display: none;
+}
+
+.tips {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 950px) {
+  .tips {
+    align-items: flex-start;
+    width: 306px;
+    margin-top: 56px;
+  }
+  .tips .tips-p {
+    text-align: left;
+  }
+}
+
+.tips-img {
+  width: 48px;
+  margin-bottom: 16px;
+}
+
+.tips-h {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #35414B;
+  margin-bottom: 8px;
+}
+
+.tips-p {
+  width: 318px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #4E5A65;
+}
+
+.notebook {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 950px) {
+  .notebook {
+    align-items: flex-start;
+    width: 230px;
+  }
+  .notebook .notebook-p {
+    text-align: left;
+  }
+  .notebook .notebook-h {
+    text-align: left;
+    width: 181px;
+  }
+}
+
+.notebook-h {
+  width: 143px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #35414B;
+}
+
+.notebook-p {
+  width: 230px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #4E5A65;
+}
+
+.manage {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 950px) {
+  .manage {
+    align-items: flex-start;
+    width: 322px;
+  }
+  .manage .manage-p {
+    text-align: left;
+  }
+  .manage .manage-h {
+    text-align: left;
+    width: 174px;
+  }
+}
+
+.manage-h {
+  width: 141px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #35414B;
+}
+
+.manage-p {
+  width: 322px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #4E5A65;
+}
+
+.button-mob {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.but-mob {
+  width: 318px;
+  height: 52px;
+  margin-bottom: 56px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #7259FA;
+  background: #ECE5FF;
+  border: 1px solid #ECE5FF;
+  border-radius: 4px;
+}
+.but-mob:hover {
+  border: 2px solid blue;
+}
+
+@media screen and (min-width: 950px) {
+  .button-mob {
+    display: none;
+  }
+}
+@media screen and (min-width: 950px) {
+  .infa-mob {
+    display: flex;
+    gap: 125px;
+  }
+  .infa-desktop {
+    display: block;
+    display: flex;
+    gap: 115px;
   }
 }/*# sourceMappingURL=style.css.map */
