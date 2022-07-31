@@ -1193,7 +1193,10 @@ text-decoration: none;
    justify-content: space-between;
    margin-right: 46px;
    @media  screen and (min-width: 950px){
-    display: none;
+    .icon-Vector-2{
+        display: none;
+    }
+   
    }
 }
 .icon-Group{
